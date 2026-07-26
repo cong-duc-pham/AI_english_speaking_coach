@@ -7,6 +7,9 @@ obj/
 *.sln.docstates
 *.suo
 
+# Secrets & Private Keys
+*firebase-adminsdk*.json
+
 # Flutter / Dart
 .dart_tool/
 .flutter-plugins

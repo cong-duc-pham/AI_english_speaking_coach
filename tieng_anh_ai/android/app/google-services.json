@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "732385366656",
+    "project_id": "ai-english-speaking-coac-fb64b",
+    "storage_bucket": "ai-english-speaking-coac-fb64b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732385366656:android:0cf0306464dbd5c5d60c65",
+        "android_client_info": {
+          "package_name": "com.example.tieng_anh_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732385366656-7jgllpedajut74e5qs6vumjpgmhgqkaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB53h2LWeuuIW-802S5_VSqT4lWTZgfZyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732385366656-7jgllpedajut74e5qs6vumjpgmhgqkaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
