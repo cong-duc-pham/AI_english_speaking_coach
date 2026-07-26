@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using backend_api.Data;
+using backend_api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,9 @@ builder.Services.AddSwaggerGen(options =>
         Description = "ASP.NET Core Web API Backend for React Web and Flutter Mobile Apps"
     });
 });
+
+// Register Gemini AI Service
+builder.Services.AddHttpClient<IGeminiService, GeminiService>();
 
 // 2. Configure Entity Framework Core with SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -40,7 +44,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "AI English Speaking Coach API v1");
-        c.RoutePrefix = string.Empty; // Đặt Swagger UI hiển thị ngay tại trang gốc https://localhost:7038/
+        c.RoutePrefix = string.Empty; // Set Swagger UI at root "/"
     });
 }
 
