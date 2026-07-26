@@ -9,6 +9,7 @@ obj/
 
 # Secrets & Private Keys
 *firebase-adminsdk*.json
+appsettings.Development.json
 
 # Flutter / Dart
 .dart_tool/
